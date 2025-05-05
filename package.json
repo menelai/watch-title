@@ -1,0 +1,47 @@
+{
+  "name": "watch-title",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "lib:prod": "ng build watch-title --configuration production",
+    "pack": "copyfiles LICENSE README.md CHANGELOG.md dist/watch-title",
+    "semantic-release": "semantic-release"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/compiler": "^19.2.0",
+    "@angular/core": "^19.2.0",
+    "@angular/forms": "^19.2.0",
+    "@angular/material": "^19.2.11",
+    "@angular/platform-browser": "^19.2.0",
+    "@angular/platform-browser-dynamic": "^19.2.0",
+    "@angular/router": "^19.2.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "rxjs": "~7.8.0",
+    "semantic-release": "^20.1.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.2.9",
+    "@angular/cli": "^19.2.5",
+    "@angular/compiler-cli": "^19.2.0",
+    "@kovalenko/eslint": "^1.0.1",
+    "@ngx-translate/core": "^16.0.4",
+    "copyfiles": "^2.4.1",
+    "material-icons-font": "^2.1.0",
+    "ng-packagr": "^19.2.0",
+    "typescript": "~5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
