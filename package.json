@@ -33,7 +33,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.9",
     "@angular/cli": "^19.2.5",
-    "@angular/compiler-cli": "^19.2.0",
+    "@angular/compiler-cli": "^20.1.4",
     "@kovalenko/eslint": "^1.0.1",
     "@ngx-translate/core": "^16.0.4",
     "copyfiles": "^2.4.1",
